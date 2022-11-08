@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <div>
           <h1> Michelle Elek </h1>
-          <p> I'm a back-end leaning full-stack developer</p>
+          <p>  Full-stack developer with a fondness of backend frameworks</p>
         </div>
       </main>
 

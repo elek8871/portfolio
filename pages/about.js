@@ -5,8 +5,12 @@ import Image from "next/image"
 export default function About(){
     return(
         <div className={styles.pink}>
-            <h2 className="text-2xl font-bold underline"> About Me </h2>
-            <p > Hi I am Michelle, am I a back-end leaning, full-stack developer</p>
+            <h2 className="about"> About Me </h2>
+            <p> 
+
+                I have strong communication and problem-solving skills, honed through my previous career in healthcare. I pride myself in my ability to connect with 
+                I truly desire to positively contribute to the world through software engineering.
+            </p>
         {/* // load img locallly from img folder */}
         <Image
             className="img"
