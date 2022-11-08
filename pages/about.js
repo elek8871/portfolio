@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function About(){
     return(
         <div className={styles.pink}>
-            <h2> About Me </h2>
+            <h2 className="text-2xl font-bold underline"> About Me </h2>
             <p > Hi I am Michelle, am I a back-end leaning, full-stack developer</p>
         {/* // load img locallly from img folder */}
         <Image
@@ -16,7 +16,7 @@ export default function About(){
             height={300}
         />
         <div>
-            <h2> Skills </h2>
+            <h2 className="text-2xl font-bold underline"> Skills </h2>
             <p> HTML, CSS, JavaScript, Node, React, Python, Express, Postgres, MongoDB, Django </p>
         </div>
 
@@ -27,8 +27,6 @@ export default function About(){
             width={400}
             height={500}
          /> */}
-
-
 
         </div>
     )

@@ -9,7 +9,6 @@ export default function NavBar(){
             <Link href="/about"> About Me</Link>
 
             <Link href="/portfolio"> Projects </Link>
-
         </nav>
     )
     
