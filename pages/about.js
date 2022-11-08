@@ -4,13 +4,13 @@ import Image from "next/image"
 
 export default function About(){
     return(
-        <div className={styles.pink}>
+        <div>
             <h2 className="about"> About Me </h2>
-            <p> 
 
-                I have strong communication and problem-solving skills, honed through my previous career in healthcare. I pride myself in my ability to connect with 
-                I truly desire to positively contribute to the world through software engineering.
-            </p>
+           
+            <p> I am forever in awe of what can be created with a few lines of code! I am passionate about learning and growing as an engineer while affecting positive change in the world around me. </p>
+
+            <p> I have strong communication and problem-solving skills, honed through my previous career in healthcare. I pride myself in my ability to connect with people of diverse backgrounds </p>
         {/* // load img locallly from img folder */}
         <Image
             className="img"
@@ -20,8 +20,8 @@ export default function About(){
             height={300}
         />
         <div>
-            <h2 className="text-2xl font-bold underline"> Skills </h2>
-            <p> HTML, CSS, JavaScript, Node, React, Python, Express, Postgres, MongoDB, Django </p>
+            <h2> Skills </h2>
+            <p> HTML * CSS * JavaScript * Node * React * Python * Express * Postgres * MongoDB * Django </p>
         </div>
 
         {/* // load img hosted on another domain - need to whitelist in next.config.js*/}
