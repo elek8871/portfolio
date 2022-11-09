@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css"
 
 export default function NavBar(){
     return(
-        <nav className='text-teal-800 space-x-10'>
+        <nav className='text-teal-800 space-x-10 font-serif'>
             <Link href="/" > Home </Link>
 
             <Link href="/about"> About Me</Link>

@@ -12,10 +12,10 @@ export default function Home() {
 
     {/* // USE REF TO a=ADD SCROLL FUNCTION FOR ONE BIG PAGE */}
 
-      <main>
-        <div>
-          <h1 className='text-teal-800 text-4xl font-semi-bold p-4' > Michelle Elek </h1>
-          <p className='p-4'> Michelle is a full-stack software engineer with a fondness of backend frameworks. </p>
+      <main className="flex justify-center">
+        <div className="font-serif">
+          <h1 className="text-teal-800 text-4xl font-semi-bold p-6 text-center" > Michelle Elek </h1>
+          <p className="p-4 text-center"> Michelle is a full-stack software engineer with a fondness of backend frameworks. </p>
         </div>
       </main>
 
