@@ -4,13 +4,13 @@ import Link from "next/link"
 export default function Portfolio(){
 
     return(
-        <div className="text-teal-700 font-serif">
+        <div className="text-teal-700 font-serif flex justify-center">
             <h1 className="text-2xl p-4 flex justify-center"> My Projects </h1>
 
             {/* goal digger div */}
             <div className="p-4">
                 <Link href="https://helpful-dusk-923e50.netlify.app/">
-                <a> Goal Digger </a>
+                <a className="flex justify-center"> Goal Digger </a>
                 </Link>
                     <Image
                         className="rounded-md"
@@ -28,7 +28,7 @@ export default function Portfolio(){
             {/* pups and pubs div */}
             <div className="p-4">
                 <Link href="https://pubs-and-pubs.fly.dev/">
-                <a> Pups and Pubs </a>
+                <a className="flex justify-center text-center"> Pups and Pubs </a>
                 </Link>
 
                 <Image
@@ -51,7 +51,7 @@ export default function Portfolio(){
             {/* memory match div */}
             <div className="p-4">
                     <Link href= "https://elek8871.github.io/SEI-Project-1---Match-Game/">
-                        <a> Memory Match Game </a>
+                        <a className="flex justify-center text-center"> Memory Match Game </a>
                     </Link>
 
                     <Image
