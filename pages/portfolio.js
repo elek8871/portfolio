@@ -20,17 +20,21 @@ export default function Portfolio(){
                     </div>
 
                     <div className="grid grid-flow-col auto-cols-auto">
-                        <Image
-                            className="rounded-md"
-                            src ="/goaldigger.png"
-                            alt ="home screeen of goal digger site"
-                            width={400}
-                            height={280}
-                            />
-                        <ul className="font-light text-med p-4">
-                            <li>Goal Digger is a full-stack, full CRUD, MERN application that allows users to create and edit their own bucket lists. </li>
-                            <li>Tech Stack: React.js, JS, MongoDB, Mongoose, Express, HTML, Vanilla CSS, React Bootstrap, external API </li>
-                        </ul>
+                        <div>
+                            <Image
+                                className="rounded-md"
+                                src ="/goaldigger.png"
+                                alt ="home screeen of goal digger site"
+                                width={400}
+                                height={280}
+                                />
+                        </div>
+                        <div className="font-light text-med p-4">
+                            <ul >
+                                <li>Goal Digger is a full-stack, full CRUD, MERN application that allows users to create and edit their own bucket lists. </li>
+                                <li>Tech Stack: React.js, JS, MongoDB, Mongoose, Express, HTML, Vanilla CSS, React Bootstrap, external API </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -44,16 +48,16 @@ export default function Portfolio(){
 
                     <div className="grid grid-flow-col auto-cols-auto">
                         <div className="order-2">
-                        <Image
-                            className="rounded-md"
-                            src ="/pupsnpubs.png"
-                            alt ="home screeen of pups and pubs site"
-                            width={400}
-                            height={280}
-                        />
+                            <Image
+                                className="rounded-md"
+                                src ="/pupsnpubs.png"
+                                alt ="home screeen of pups and pubs site"
+                                width={400}
+                                height={280}
+                            />
                         </div>
-                        <div className="order-1">
-                            <ul className="text-sm font-light p-4">
+                        <div className="order-1 text-md font-light p-4">
+                            <ul>
                                 <li>
                                     Pups and Pubs in a full-stack, full CRUD web application in which users can create an account, find and rate local breweries based on dog-friendliness and food and beverage quality.
                                 </li>
@@ -74,17 +78,21 @@ export default function Portfolio(){
                     </div>
 
                     <div className = "grid grid-flow-col auto-cols-auto">
-                        <Image
-                            className="rounded-md"
-                            src ="/memorymatch.png"
-                            alt ="home screeen of memory match site"
-                            width={300}
-                            height={250}
-                        />
-                        <ul className="text-sm font-light p-4">
-                            <li> A fun retro hockey-themed memory match game, eloquently simple. </li>
-                            <li> Tech Stack : vanilla JS, HTML, CSS, and DOM manipulation</li>
-                        </ul>
+                        <div>
+                            <Image
+                                className="rounded-md"
+                                src ="/memorymatch.png"
+                                alt ="home screeen of memory match site"
+                                width={300}
+                                height={250}
+                            />
+                        </div>
+                        <div className="text-sm font-light p-4">
+                            <ul>
+                                <li> A fun retro hockey-themed memory match game, eloquently simple. </li>
+                                <li> Tech Stack : vanilla JS, HTML, CSS, and DOM manipulation</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
