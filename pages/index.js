@@ -14,8 +14,18 @@ export default function Home() {
 
       <main className="flex justify-center">
         <div className="font-serif">
-          <h1 className="text-teal-800 text-4xl font-semi-bold p-6 text-center" > Michelle Elek </h1>
-          <p className="p-4 text-center"> Michelle is a full-stack software engineer with a fondness of backend frameworks. </p>
+          {/* <h1 className="text-teal-800 text-4xl font-semi-bold p-6 text-center" > Michelle Elek </h1> */}
+          <div className="p-6 flex justify-center top-10">
+          <Image
+            className="rounded-lg"
+            src ="/michelle2.png"
+            alt ="logo for michelle elek"
+            width={800}
+            height={800}
+          />
+          </div>
+
+          {/* <p className="p-4 text-center text-gray-600 font-light"> Michelle is a full-stack software engineer with a fondness of backend frameworks. </p> */}
         </div>
       </main>
 

@@ -13,13 +13,13 @@ export default function Portfolio(){
 
             {/* goal digger div */}
                 <div className="p-4 m-5 bg-slate-300 rounded-md border-2 border-slate-500 ">
-                    <div className="flex justify-center text-2xl">
+                    <div className="flex justify-center text-2xl bottom-5">
                         <Link href="https://helpful-dusk-923e50.netlify.app/">
                             <a> Goal Digger </a>
                         </Link>
                     </div>
 
-                    <div className="grid grid-flow-col auto-cols-auto">
+                    <div className="grid grid-flow-col auto-cols-auto top-5">
                         <div>
                             <Image
                                 className="rounded-md"
@@ -29,10 +29,10 @@ export default function Portfolio(){
                                 height={280}
                                 />
                         </div>
-                        <div className="font-light text-med p-4">
+                        <div className="font-light text-med p-4 top-5">
                             <ul >
-                                <li>Goal Digger is a full-stack, full CRUD, MERN application that allows users to create and edit their own bucket lists. </li>
-                                <li>Tech Stack: React.js, JS, MongoDB, Mongoose, Express, HTML, Vanilla CSS, React Bootstrap, external API </li>
+                                <li className="p-3">Goal Digger is a full-stack, full CRUD, MERN application that allows users to create and edit their own bucket lists. </li>
+                                <li className="p-3">Tech Stack: React.js, JS, MongoDB, Mongoose, Express, HTML, Vanilla CSS, React Bootstrap, external API </li>
                             </ul>
                         </div>
                     </div>
@@ -58,10 +58,10 @@ export default function Portfolio(){
                         </div>
                         <div className="order-1 text-md font-light p-4">
                             <ul>
-                                <li>
+                                <li className="p-3">
                                     Pups and Pubs in a full-stack, full CRUD web application in which users can create an account, find and rate local breweries based on dog-friendliness and food and beverage quality.
                                 </li>
-                                <li>
+                                <li className="p-3">
                                     Tech Stack: Axios, SQL, Bootstrap CSS, HTML, JS, Express, Git, External Api
                                 </li>
                             </ul>
@@ -71,7 +71,7 @@ export default function Portfolio(){
 
             {/* memory match div */}
                 <div className="p-4 m-5 bg-slate-300 rounded-md border-2 border-slate-500 ">
-                    <div div className="flex justify-center text-2xl">
+                    <div div className="flex justify-center text-2xl hover:bg-green-200 py-1 px-3">
                         <Link href= "https://elek8871.github.io/SEI-Project-1---Match-Game/">
                             <a className="flex justify-center text-center"> Memory Match Game </a>
                         </Link>
@@ -83,14 +83,14 @@ export default function Portfolio(){
                                 className="rounded-md"
                                 src ="/memorymatch.png"
                                 alt ="home screeen of memory match site"
-                                width={300}
-                                height={250}
+                                width={400}
+                                height={280}
                             />
                         </div>
                         <div className="text-sm font-light p-4">
                             <ul>
-                                <li> A fun retro hockey-themed memory match game, eloquently simple. </li>
-                                <li> Tech Stack : vanilla JS, HTML, CSS, and DOM manipulation</li>
+                                <li className="p-3"> A fun retro hockey-themed memory match game, eloquently simple. </li>
+                                <li className="p-3"> Tech Stack : vanilla JS, HTML, CSS, and DOM manipulation</li>
                             </ul>
                         </div>
                     </div>
