@@ -1,1 +1,1 @@
-A Next.js app created for my portfolio 
+My portfolio created using Next.Js and Tailwind CSS
