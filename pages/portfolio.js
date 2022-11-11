@@ -6,13 +6,17 @@ export default function Portfolio(){
     return(
         <div className="text-teal-700 font-serif">
             <h1 className="text-3xl p-3 flex justify-center"> My Projects </h1>
-            <p className="flex justify-center"> Click on the title of the project to view the live site.</p>
+            <p className="flex justify-center"> Click on the title of any project to view the live site.</p>
+            <ul>
+                <li className="flex justify-center"> User Name = guest@web.com</li>
+                <li className="flex justify-center"> Password = hello </li>
+            </ul>
 
             {/* div that holds all cards */}
             <div className="">
 
             {/* goal digger div */}
-                <div className="p-4 m-5 bg-zinc-300 rounded-md border-2 border-slate-500 ">
+                <div className="p-4 m-5 bg-amber-100 opacity-75 rounded-md border-2 border-slate-500 ">
                     <div className="flex justify-center text-2xl bottom-5  hover:bg-green-200 py-1 px-3">
                         <Link href="https://helpful-dusk-923e50.netlify.app/">
                             <a> Goal Digger </a>
@@ -39,7 +43,7 @@ export default function Portfolio(){
                 </div>
 
             {/* pups and pubs div */}
-                <div className="p-4 m-5 bg-zinc-300 rounded-md border-2 border-slate-500">
+                <div className="p-4 m-5 bg-amber-100 opacity-75 rounded-md border-2 border-slate-500">
                     <div className="flex justify-center text-2xl  hover:bg-green-200 py-1 px-3">
                         <Link href="https://pubs-and-pubs.fly.dev/">
                         <a> Pups and Pubs </a>
@@ -70,7 +74,7 @@ export default function Portfolio(){
                 </div>
 
             {/* memory match div */}
-                <div className="p-4 m-5 bg-zinc-300 rounded-md border-2 border-slate-500 ">
+                <div className="p-4 m-5 bg-amber-100 opacity-75 rounded-md border-2 border-slate-500 ">
                     <div div className="flex justify-center text-2xl hover:bg-green-200 py-1 px-3">
                         <Link href= "https://elek8871.github.io/SEI-Project-1---Match-Game/">
                             <a className="flex justify-center text-center"> Memory Match Game </a>
